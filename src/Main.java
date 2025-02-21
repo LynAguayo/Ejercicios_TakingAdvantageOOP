@@ -11,7 +11,7 @@ public class Main {
         HR.addEmployee(manager);
         HR.addEmployee(developer);
 
-        System.out.println("Print human resources employees: ");
+        System.out.println("\nPrint human resources employees: ");
         HR.printEmployess();
 
         System.out.println("\nPrint human resource after deleting manager");

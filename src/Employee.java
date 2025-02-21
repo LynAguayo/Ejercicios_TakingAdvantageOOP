@@ -53,4 +53,13 @@ public abstract class Employee {
     public void setFacebookID(int facebookID) {
         this.facebookID = facebookID;
     }
+
+    @Override
+    public String toString() {
+        return " name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", experience=" + experience +
+                ", facebookID=" + facebookID;
+    }
 }

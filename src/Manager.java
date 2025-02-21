@@ -21,12 +21,8 @@ public class Manager extends Employee{
     @Override
     public String toString() {
         return "Manager {" +
-                " name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", experience=" + experience +
-                ", facebookID=" + facebookID +
+                super.toString() +
                 ", size=" + size +
-                "}";
+                " }";
     }
 }

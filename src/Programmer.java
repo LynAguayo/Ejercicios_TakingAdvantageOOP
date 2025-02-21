@@ -50,12 +50,8 @@ public class Programmer extends Employee {
     @Override
     public String toString() {
         return  "Programmer { " +
-                " name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", experience=" + experience +
-                ", facebookID=" + facebookID +
+                super.toString() +
                 ", programmingLanguages=" + Arrays.toString(programmingLanguages) +
-                "}";
+                " }";
     }
 }
